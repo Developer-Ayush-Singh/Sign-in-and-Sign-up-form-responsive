@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SignUp and SignIn Form Responsive</title>
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <div class="container">
+    <div class="blueBg">
+      <div class="box signin">
+        <h2>Already Have An Account?</h2>
+        <button class="signinBtn">Sign in</button> 
+      </div>
+      <div class="box signup">
+        <h2>Don't Have An Account?</h2>
+        <button class="signupBtn">Sign Up</button>
+      </div>
+    </div>
+    <div class="formBx">
+      <div class="form signinForm">
+         <form action="#">
+            <h3>Sign In</h3>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <div class="social">
+              <i class='bx bxl-facebook-circle facebook'></i>
+              <i class='bx bxl-google google' ></i>
+              <i class='bx bxl-twitter twitter' ></i>
+              <i class='bx bxl-linkedin-square linkdein' ></i>
+            </div>
+            <input type="submit" value="Login">
+            <a href="#" class="forgot">Forgot Password</a>
+          </form>
+      </div>
+      <div class="form signupForm" id="Sign">
+         <form action="#">
+            <h3>Sign Up</h3>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <input type="submit" value="Sign Up" required>
+            <a href="#" class="forgot">Forgot Password</a>
+          </form>
+      </div>
+    </div>
+  </div>
+</html>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
